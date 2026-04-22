@@ -1,0 +1,38 @@
+# Environment variables - NEVER push this
+.env
+
+# Airflow logs
+logs/
+
+# Airflow database and pid
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyc
+.venv/
+venv/
+env/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Data files - too large for GitHub
+data/
+*.csv
+*.parquet
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
